@@ -12,7 +12,7 @@ MIDIClient.destinations.do({|endpoint, i|
 });
 
 // Find your K2000r MIDI output port
-m = MIDIOut(2); // Change this to match your K2000r's port number
+m = MIDIOut(3); // Change this to match your K2000r's port number
 m.latency = 0;
 
 "Selected MIDI port: ".post;
